@@ -711,6 +711,12 @@ iframe {
   background: rgba(123, 123, 123, 0.05);
 }
 
+form > input,
+form > textarea {
+  margin-bottom: 10px;
+  padding: 15px 10px 15px 10px;
+}
+
 #newsletterButton {
   padding: 0 10rem 0 10rem;
   font-family: Open sans, sans-serif;
