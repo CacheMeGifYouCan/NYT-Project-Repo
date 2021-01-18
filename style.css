@@ -40,9 +40,20 @@ li,
 #adv_container2,
 #news_container,
 #copyright_cont,
-.popular-links {
+.popular-links,
+#signupHeader,
+#newsletterButton {
   display: flex;
   align-content: center;
+}
+
+label,
+form > p,
+#radio1,
+#radio2,
+#radio3,
+form > button {
+  margin: 10px 0 10px 10px;
 }
 
 #topNavBar {
@@ -71,6 +82,13 @@ button:hover {
   width: 15px;
   height: 2px;
   margin: 4px;
+}
+
+main,
+form {
+  padding: 0;
+  margin-top: 4%;
+  font-family: Open sans, sans-serif;
 }
 
 #advPlaceholder {
@@ -116,7 +134,9 @@ iframe,
   justify-content: center;
 }
 
-.imageContainerScientist {
+.imageContainerScientist,
+#signupHeader,
+#newsletterButton {
   position: relative;
   justify-content: center;
   width: 100%;
@@ -465,7 +485,9 @@ li > a > i {
 
 /* <<< NEWSLETTER >>> */
 
-#newsletterHeading {
+#newsletterHeading,
+#signupHeader,
+#newsletterButton {
   margin-bottom: 2rem;
   font-size: 1rem;
   font-weight: bold;
@@ -680,4 +702,23 @@ footer {
 
 iframe {
   height: 25rem;
+}
+
+#formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: rgba(123, 123, 123, 0.05);
+}
+
+#newsletterButton {
+  padding: 0 10rem 0 10rem;
+  font-family: Open sans, sans-serif;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+form > #username,
+form > #email {
+  width: 75%;
 }
