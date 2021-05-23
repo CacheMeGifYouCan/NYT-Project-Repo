@@ -34,7 +34,7 @@ CSS flex property.
 
 👤 **Marcus (Mark) Allen**
 
-- GitHub: [@CacheMeGifYouCan](https://github.com/githubhandle)
+- GitHub: [@marcusal](https://github.com/marcusal)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [Denis Diaconu](https://linkedin.com/linkedinhandle)
 
